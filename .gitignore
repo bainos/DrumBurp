@@ -9,3 +9,5 @@ Thumbs.db
 build/dist
 build/tmp
 build/output
+**.swp
+**.swo
