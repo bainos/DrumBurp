@@ -8,6 +8,7 @@ RUN apt-get update && apt-get -y upgrade
 RUN apt-get install -y openssh-server
 RUN apt-get install -y git vim python2.7 python-qt4
 RUN apt-get install -y build-essential python-dev
+RUN apt-get install -y liblzma-dev patchelf
 RUN wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 RUN python get-pip.py
 
